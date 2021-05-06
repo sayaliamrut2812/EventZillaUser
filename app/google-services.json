@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "938425138637",
+    "firebase_url": "https://eventzillauser.firebaseio.com",
+    "project_id": "eventzillauser",
+    "storage_bucket": "eventzillauser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938425138637:android:ecde23811311c3f30b9884",
+        "android_client_info": {
+          "package_name": "com.example.eventzillauser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938425138637-e9o1d10jdsmjvelfn33ej5a5a8r4elql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventzillauser",
+            "certificate_hash": "33876af5a98f1f1da7b1186429c1b3dfdaf005f0"
+          }
+        },
+        {
+          "client_id": "938425138637-9r8vi7rt9ud16d1kjhlh41jqu6dmt6bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAB0RoRqtECUounIqwEQc29QTlaBmjK2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938425138637-9r8vi7rt9ud16d1kjhlh41jqu6dmt6bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

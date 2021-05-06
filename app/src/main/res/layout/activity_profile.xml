@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/userNmaeTextView"
+            android:layout_width="332dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="321dp"
+            android:layout_marginEnd="43dp"
+            android:textColor="#0091EA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="332dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="267dp"
+            android:layout_marginEnd="47dp"
+            android:text="Email Id"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="332dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginEnd="41dp"
+            android:text="Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/Cont"
+            android:layout_width="332dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="375dp"
+            android:layout_marginEnd="38dp"
+            android:text="Contact Number"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/signOutButton"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="497dp"
+            android:layout_marginEnd="60dp"
+            android:background="#AA00FF"
+            android:elevation="5dp"
+            android:text="Logout"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="182dp"
+            android:layout_height="118dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="127dp"
+            app:srcCompat="@drawable/ic_account_circle_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="332dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginEnd="45dp"
+            android:text="Vinaya Kulkarni"
+            android:textColor="#0091EA"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_phone"
+            android:layout_width="330dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="426dp"
+            android:layout_marginEnd="45dp"
+            android:text="8999605531"
+            android:textColor="#0091EA"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events">
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+    <!-- Main content -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation1"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_gravity="bottom"
+            android:background="#AA00FF"
+            app:itemIconTint="@color/common_google_signin_btn_text_dark_focused"
+            app:itemTextColor="#0E0C0C"
+            app:menu="@menu/menu">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="70dp"
+            android:text="Welcome to"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="cursive"
+            android:text="EventZilla"
+            android:textSize="50sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/EventBtn"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="300dp"
+            android:background="#AA00FF"
+            android:text="View Event" />
+
+
+    </FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
